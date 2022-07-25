@@ -47,7 +47,7 @@ apiVersion: autoscaling/v2beta2
 kind: HorizontalPodAutoscaler
 metadata:
   name: webserver
-  namespace: default
+  namespace: sops-app-test
 spec:
   maxReplicas: 5
   metrics:
